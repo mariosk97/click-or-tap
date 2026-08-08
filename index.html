@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ανακάλυψε την Εικόνα</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================= -->
+    <!-- MENU -->
+    <!-- ========================= -->
+
+    <div id="menuScreen">
+
+        <h1>Ανακάλυψε την Εικόνα</h1>
+
+        <div class="optionGroup">
+            <label for="categorySelect">Κατηγορία εικόνων</label>
+
+            <select id="categorySelect">
+                <option value="animals">Ζώα</option>
+                <option value="fruits">Φρούτα</option>
+                <option value="misc">Διάφορα</option>
+            </select>
+        </div>
+
+        <div class="optionGroup">
+
+            <p>Πλέγμα</p>
+
+            <label>
+                <input type="radio" name="gridSize" value="5" checked>
+                5 × 5
+            </label>
+
+            <label>
+                <input type="radio" name="gridSize" value="6">
+                6 × 6
+            </label>
+
+        </div>
+
+        <button id="startButton">
+            Έναρξη
+        </button>
+
+    </div>
+
+
+
+    <!-- ========================= -->
+    <!-- GAME -->
+    <!-- ========================= -->
+
+	<div id="gameScreen" class="hidden">
+
+		<div id="gameContainer">
+
+			<img id="picture" src="" alt="Picture">
+
+			<div id="grid"></div>
+
+		</div>
+
+		<button id="nextButton" class="hidden">
+			Επόμενη εικόνα
+		</button>
+
+	</div>
+
+    <script src="lists.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
