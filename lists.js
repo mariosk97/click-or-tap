@@ -9,7 +9,19 @@ const imageLists = {
 		"dog.webp",
     ],
 
-    fruits: [
+    flowers: [
+        "flower.jpg",
+        // "banana.jpg",
+        // "orange.jpg"
+    ],
+	
+	villages: [
+        // "apple.jpg",
+        // "banana.jpg",
+        // "orange.jpg"
+    ],
+		
+	beaches: [
         // "apple.jpg",
         // "banana.jpg",
         // "orange.jpg"
