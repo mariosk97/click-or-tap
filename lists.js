@@ -31,6 +31,13 @@ const imageLists = {
         // "car.jpg",
         // "house.jpg",
         // "ball.jpg"
+    ],
+
+	pantelis: [
+        "kati psinete.png",
+        "kati psinete1.png",
+        "masa.png",
+		"masa1.png"
     ]
 
 };
